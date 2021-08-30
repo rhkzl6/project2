@@ -1,0 +1,948 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*초기화 코드*/
+
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+
+
+/*폰트 불러오기*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    margin-left: 115px;
+}
+
+.navtext {
+    color: white;
+}
+
+.navbar-nav li {
+    margin-left: 15px;
+}
+
+.navbar {}
+
+
+.header {
+    font-family: 'Nanum Gothic', 'sans-serif', 'Arial';
+    font-weight: 500;
+    width: 1920px;
+    height: 975px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nanum Gothic', 'sans-serif', 'Arial';
+    font-weight: 700;
+}
+
+
+
+.nanumgothic * {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.headertext {
+    position: absolute;
+    width: 800px;
+}
+
+.headertext .home {
+    position: absolute;
+    left: 20px;
+    top: 59px;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.headertext .gy {
+    position: absolute;
+    left: 335px;
+    top: 59px;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.headertext .app {
+    position: absolute;
+    left: 500px;
+    top: 59px;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.headertext .gn {
+    position: absolute;
+    left: 680px;
+    top: 59px;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.headertext a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.headertext a:hover {
+    color: #14b0f5;
+}
+
+
+.overviewimg {
+    margin-top: 230px;
+    margin-left: 185px;
+}
+
+.overview {
+    position: absolute;
+    width: 1920px;
+    height: 582px;
+    top: 975px;
+    /*background-color: gray;*/
+}
+
+
+.overview p {
+    position: absolute;
+    left: 553px;
+    top: 230px;
+    font-size: 14pt;
+    line-height: 35pt;
+    color: #868686;
+}
+
+.mokup {
+    position: absolute;
+    left: 1054px;
+    top: 112px;
+}
+
+.lu_animate {
+    animation-name: lu_animate;
+    animation-duration: 2s;
+    position: absolute;
+    left: 715px;
+    top: 355px;
+}
+
+.animate {
+    animation-name: animate;
+    animation-duration: 2s;
+    position: absolute;
+    left: 715px;
+    top: 355px;
+}
+
+@keyframes lu_animate {
+    0% {
+        left: 715px;
+        top: 550px;
+        opacity: 0%;
+    }
+
+    100% {
+        left: 715px;
+        top: 355px;
+        opacity: 100%;
+    }
+}
+
+.Ellipse_6 {
+    position: absolute;
+    left: 417px;
+    top: 194px;
+}
+
+.Ellipse_4 {
+    position: absolute;
+    left: 510px;
+    top: 605px;
+}
+
+.Ellipse_3 {
+    position: absolute;
+    left: 840px;
+    top: 179px;
+}
+
+.Ellipse_2 {
+    position: absolute;
+    left: 327px;
+    top: 548px;
+}
+
+.Ellipse_1 {
+    position: absolute;
+    left: 881px;
+    top: 548px;
+}
+
+.Ellipse {
+    position: absolute;
+    left: 930px;
+    top: 398px;
+}
+
+
+
+
+.why {
+    position: absolute;
+    top: 1557px;
+    width: 1920px;
+    height: 1060px;
+    background-color: #fbe4ec;
+    line-height: 24pt;
+}
+
+.why01 {
+    position: absolute;
+    top: 350px;
+    left: 750px;
+    z-index: 99;
+}
+
+.why02 {
+    animation-name: why02;
+    animation-duration: 6s;
+    position: absolute;
+    top: 96px;
+    left: 1235px;
+    z-index: 99;
+    visibility: visible;
+}
+
+@keyframes why02 {
+    0% {
+        left: 1235px;
+        top: 296px;
+        opacity: 0%;
+    }
+
+    100% {
+        left: 1235px;
+        top: 96px;
+        opacity: 100%;
+    }
+}
+
+.why03 {
+    animation-name: why03;
+    animation-duration: 6s;
+    position: absolute;
+    top: 170px;
+    left: 1235px;
+    z-index: 99;
+    visibility: visible;
+}
+
+@keyframes why03 {
+    0% {
+        left: 1275px;
+        top: 270px;
+        opacity: 0%;
+    }
+
+    100% {
+        left: 1235px;
+        top: 170px;
+        opacity: 100%;
+    }
+}
+
+.why04 {
+    animation-name: why04;
+    animation-duration: 6.5s;
+    position: absolute;
+    top: 342px;
+    left: 1514px;
+    z-index: 99;
+    visibility: visible;
+}
+
+@keyframes why04 {
+    0% {
+        left: 1614px;
+        top: 302px;
+        opacity: 0%;
+    }
+
+    100% {
+        left: 1514px;
+        top: 342px;
+        opacity: 100%;
+    }
+}
+
+.why05 {
+    animation-name: why05;
+    animation-duration: 6s;
+    position: absolute;
+    top: 401px;
+    left: 1240px;
+    z-index: 99;
+    visibility: visible;
+}
+
+@keyframes why05 {
+    0% {
+        left: 1344px;
+        top: 501px;
+        opacity: 0%;
+    }
+
+    100% {
+        left: 1240px;
+        top: 401px;
+        opacity: 100%;
+    }
+}
+
+.why06 {
+    animation-name: why06;
+    animation-duration: 6s;
+    position: absolute;
+    top: 551px;
+    right: 191px;
+    z-index: 99;
+    visibility: visible;
+}
+
+@keyframes why06 {
+    0% {
+        top: 631px;
+        right: 191px;
+        opacity: 0%;
+    }
+
+    100% {
+        top: 551px;
+        right: 191px;
+        opacity: 100%;
+    }
+}
+
+
+
+/*.why07 {
+    position: absolute;
+    top: 695px;
+    left: 1129px;
+    z-index: 99;
+}*/
+
+.why07 {
+    animation-name: why07;
+    animation-duration: 6.5s;
+    position: absolute;
+    top: 695px;
+    left: 1129px;
+    z-index: 99;
+    visibility: visible;
+}
+
+@keyframes why07 {
+    0% {
+        top: 695px;
+        left: 1129px;
+        opacity: 0%;
+    }
+
+    100% {
+        top: 695px;
+        left: 1129px;
+        opacity: 100%;
+    }
+}
+
+
+.why08 {
+    animation-name: why08;
+    animation-duration: 6.5s;
+    position: absolute;
+    top: 759px;
+    left: 1268px;
+    z-index: 99;
+    visibility: visible;
+}
+
+@keyframes why08 {
+    0% {
+        top: 859px;
+        left: 1268px;
+        opacity: 0%;
+    }
+
+    100% {
+        top: 759px;
+        left: 1268px;
+        opacity: 100%;
+    }
+}
+
+.why09 {
+    animation-name: why09;
+    animation-duration: 6.5s;
+    position: absolute;
+    top: 756px;
+    left: 1013px;
+    z-index: 99;
+    visibility: visible;
+}
+
+@keyframes why09 {
+    0% {
+        top: 756px;
+        left: 1013px;
+        opacity: 0%;
+    }
+
+    100% {
+        top: 756px;
+        left: 1013px;
+        opacity: 100%;
+    }
+}
+
+
+.why10 {
+    animation-name: why10;
+    animation-duration: 6.5s;
+    position: absolute;
+    top: 741px;
+    left: 610px;
+    z-index: 99;
+    visibility: visible;
+}
+
+@keyframes why10 {
+    0% {
+        top: 841px;
+        left: 610px;
+        opacity: 0%;
+    }
+
+    100% {
+        top: 741px;
+        left: 610px;
+        opacity: 100%;
+    }
+}
+
+.why11 {
+    animation-name: why11;
+    animation-duration: 6.5s;
+    position: absolute;
+    bottom: 230px;
+    left: 336px;
+    z-index: 99;
+    visibility: visible;
+}
+
+@keyframes why11 {
+    0% {
+        bottom: 230px;
+        left: 336px;
+        opacity: 0%;
+    }
+
+    100% {
+        bottom: 230px;
+        left: 336px;
+        opacity: 100%;
+    }
+}
+
+/*.why12 {
+    position: absolute;
+    bottom: 285px;
+    left: 174px;
+}*/
+
+.why12 {
+    animation-name: why12;
+    animation-duration: 6.5s;
+    position: absolute;
+    bottom: 285px;
+    left: 174px;
+    z-index: 99;
+    visibility: visible;
+}
+
+@keyframes why12 {
+    0% {
+        bottom: 155px;
+        left: 174px;
+        opacity: 0%;
+    }
+
+    100% {
+        bottom: 285px;
+        left: 174px;
+        opacity: 100%;
+    }
+}
+
+.why13 {
+    animation-name: why13;
+    animation-duration: 6.5s;
+    position: absolute;
+    top: 424px;
+    left: 339px;
+    z-index: 99;
+    visibility: visible;
+}
+
+@keyframes why13 {
+    0% {
+        top: 524px;
+        left: 439px;
+        opacity: 0%;
+    }
+
+    100% {
+        top: 424px;
+        left: 339px;
+        opacity: 100%;
+    }
+}
+
+.why14 {
+    animation-name: why14;
+    animation-duration: 6.5s;
+    position: absolute;
+    z-index: 99;
+    visibility: visible;
+    top: 284px;
+    left: 279px;
+}
+
+@keyframes why14 {
+    0% {
+        top: 524px;
+        left: 339px;
+        opacity: 0%;
+    }
+
+    100% {
+        top: 284px;
+        left: 279px;
+        opacity: 100%;
+    }
+}
+
+.why15 {
+    animation-name: why15;
+    animation-duration: 6.5s;
+    position: absolute;
+    z-index: 99;
+    visibility: visible;
+    top: 214px;
+    left: 156px;
+}
+
+@keyframes why15 {
+    0% {
+        top: 214px;
+        left: 156px;
+        opacity: 0%;
+    }
+
+    100% {
+        top: 214px;
+        left: 156px;
+        opacity: 100%;
+    }
+}
+
+.why16 {
+    animation-name: why16;
+    animation-duration: 6.5s;
+    position: absolute;
+    z-index: 99;
+    visibility: visible;
+    top: 106px;
+    left: 411px;
+}
+
+@keyframes why16 {
+    0% {
+        top: 56px;
+        left: 411px;
+        opacity: 0%;
+    }
+
+    100% {
+        top: 106px;
+        left: 411px;
+        ;
+        opacity: 100%;
+    }
+}
+
+.gaeyo {
+    position: absolute;
+    top: 2616px;
+    width: 1920px;
+    height: 1151px;
+    background-image: url(../img/gaeyobg.png);
+}
+
+.gaeyohead {
+    position: absolute;
+    top: 99px;
+    left: 916px;
+}
+
+.gyimg01 {
+    position: absolute;
+    top: 206px;
+    left: 526px;
+}
+
+.gyimg02 {
+    position: absolute;
+    top: 487px;
+    left: 526px;
+}
+
+.gyimg03 {
+    position: absolute;
+    top: 772px;
+    left: 526px;
+}
+
+.appint {
+    position: absolute;
+    top: 3760px;
+    width: 1920px;
+    height: 1065px;
+    background-image: url(../img/introbg.jpg);
+}
+
+.appint .int01 {
+    position: absolute;
+    top: 236px;
+    left: 365px;
+}
+
+.appint .int02 {
+    position: absolute;
+    top: 236px;
+    left: 803px;
+}
+
+.appint .int03 {
+    position: absolute;
+    top: 236px;
+    left: 1233px;
+}
+
+.info {
+    position: absolute;
+    top: 5075px;
+    width: 1920;
+    height: 1281px;
+}
+
+.infobg {}
+
+.info .infotxt01 {
+    position: absolute;
+    top: 376px;
+    left: 1110px;
+}
+
+.info .infotxt02 {
+    position: absolute;
+    top: 520px;
+    left: 1110px;
+}
+
+
+.info .infotxt03 {
+    position: absolute;
+    top: 500px;
+    left: 439px;
+}
+
+.info .infotxt04 {
+    position: absolute;
+    top: 690px;
+    left: 439px;
+}
+
+.search {
+    position: absolute;
+    width: 1920px;
+    height: 1261px;
+    top: 6116px;
+}
+
+.s_bg {
+    position: absolute;
+    left: 541px;
+    top: 96px;
+}
+
+.cus {
+    position: absolute;
+    width: 1920px;
+    height: 1491px;
+    top: 7376px;
+    background-image: url(../img/cus_bg.png);
+}
+
+.cus .cusinfo_01 {
+    position: absolute;
+    top: 468px;
+    right: 332px;
+}
+
+.cus .cusinfo_02 {
+    position: absolute;
+    top: 620px;
+    right: 332px;
+}
+
+.cus .cusinfo_03 {
+    position: absolute;
+    top: 758px;
+    left: 425px;
+}
+
+.cus .cusinfo_04 {
+    position: absolute;
+    top: 960px;
+    left: 382px;
+}
+
+.footer {
+    position: absolute;
+    top: 9107px;
+    width: 1920px;
+    height: 258px;
+    background-image: url(../img/footer_bg.png);
+}
+
+.footer a {
+    text-decoration: none;
+    color: #525252;
+}
+
+.footer a:hover {
+    color: #41aaeb;
+}
+
+.f_centertxt {
+    width: 1920px;
+    margin-top: 190px;
+    text-align: center;
+}
+
+.f_centertxt p {
+    font-size: 14px;
+}
+
+.f_centertxt a {
+    font-size: 14px;
+}
+
+.f_01 {
+    padding-top: 10px;
+    position: absolute;
+    left: 1453px;
+    top: 152px;
+}
+
+.f_02 {
+    position: absolute;
+    left: 1435px;
+    top: 195px;
+    font-size: 18pt;
+    font-weight: 700;
+    float: right;
+}
+
+.f_03 {
+    position: absolute;
+    left: 1565px;
+    top: 246px;
+    float: right;
+}
+
+.f_04 {
+    position: absolute;
+    left: 1432px;
+    top: 273px;
+    font-size: 18pt;
+    font-weight: 700;
+    float: right;
+}
+
+.fa-instagram-square {
+    font-size: 18pt;
+    /*position: absolute;
+    left: 1446px;
+    top: 332px;*/
+}
+
+.fa-facebook-square {
+    font-size: 18pt;
+    /* position: absolute;
+    left: 1548px;
+    top: 332px;*/
+}
+
+.fa-twitter-square {
+    font-size: 18pt;
+    /*position: absolute;
+    left: 1627px;
+    top: 332px;*/
+}
+
+.sns {
+    display: flex;
+    width: 130px;
+    justify-content: space-around;
+    position: absolute;
+    left: 1568px;
+    top: 200px;
+}
